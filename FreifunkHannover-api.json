@@ -1,0 +1,91 @@
+{
+  "name": "Freifunk Hannover",
+  "url": "https://hannover.freifunk.net/",
+  "location": {
+    "city": "Hannover",
+    "country": "DE",
+    "lat": 52.371484,
+    "lon": 9.719891,
+    "address": {
+      "Name": "@leinelab",
+      "Street": "Glockseestraße 35",
+      "Zipcode": "30169"
+    }
+  },
+  "contact": {
+    "email": "info@hannover.freifunk.net",
+    "irc": "irc://irc.hackint.org/#freifunkh",
+    "ml": "hannover@freifunk.net",
+    "facebook": "https://www.facebook.com/freifunkhannover",
+    "twitter": "@freifunkh"
+  },
+  "state": {
+    "nodes": 1137,
+    "focus": [
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2018-11-23T20:24:44.627Z"
+  },
+  "services": [
+    {
+      "serviceName": "stats",
+      "serviceDescription": "graphana of some technical details",
+      "externalUri": "https://stats.ffh.zone/",
+      "internalUri": "https://stats.ffh.zone/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://hannover.freifunk.net/karte/",
+      "interval": "60",
+      "technicalType": "ffmap",
+      "mapType": "geographical"
+    }
+  ],
+  "socialprojects": {
+    "number": 7,
+    "contact": "info@hannover.freifunk.net"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "https://hannover.freifunk.net/download/?dir=Router-Firmware",
+      "docs": "https://hannover.freifunk.net/wiki/Freifunk/FirmwareReleases",
+      "vpnaccess": "mail"
+    },
+    "dns": [
+      {
+        "domainname": "ffh.zone",
+        "nameserver": [
+          "ns1.fnorden.net"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fdca:ffee:8::/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.2.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.14"
+}
