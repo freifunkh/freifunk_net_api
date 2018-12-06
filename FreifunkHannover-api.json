@@ -42,7 +42,13 @@
       "interval": "60",
       "technicalType": "ffmap",
       "mapType": "geographical"
-    }
+    },
+    {
+      "url": "https://harvester.ffh.zone/nodelist.json",
+      "interval": "1min",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }    
   ],
   "socialprojects": {
     "number": 7,
