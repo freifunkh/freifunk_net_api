@@ -8,8 +8,8 @@
     "lon": 9.719891,
     "address": {
       "Name": "@leinelab",
-      "Street": "Glockseestraße 35",
-      "Zipcode": "30169"
+      "Street": "Burgweg 5",
+      "Zipcode": "30419"
     }
   },
   "contact": {
@@ -20,13 +20,13 @@
     "twitter": "@freifunkh"
   },
   "state": {
-    "nodes": 1137,
+    "nodes": 1495,
     "focus": [
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2018-11-23T20:24:44.627Z"
+    "lastchange": "2020-03-31T08:42:27.970Z"
   },
   "services": [
     {
@@ -40,7 +40,7 @@
     {
       "url": "https://hannover.freifunk.net/karte/",
       "interval": "60",
-      "technicalType": "ffmap",
+      "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
@@ -48,10 +48,10 @@
       "interval": "1min",
       "technicalType": "nodelist",
       "mapType": "list/status"
-    }    
+    }
   ],
   "socialprojects": {
-    "number": 7,
+    "number": 36,
     "contact": "info@hannover.freifunk.net"
   },
   "techDetails": {
