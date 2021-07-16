@@ -20,13 +20,13 @@
     "twitter": "@freifunkh"
   },
   "state": {
-    "nodes": 1495,
+    "nodes": 1750,
     "focus": [
       "Public Free Wifi",
       "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2020-03-31T08:42:27.970Z"
+    "lastchange": "2021-07-16T11:48:55.320Z"
   },
   "services": [
     {
@@ -53,6 +53,16 @@
   "socialprojects": {
     "number": 36,
     "contact": "info@hannover.freifunk.net"
+  },
+  "support": {
+    "club": {
+      "name": "FNorden e.V.",
+      "street": "Wülferoder Str. 70",
+      "zip": "30539",
+      "city": "Hannover",
+      "url": "https://fnorden.net/",
+      "email": "vorstand@fnorden.de"
+    }
   },
   "techDetails": {
     "firmware": {
