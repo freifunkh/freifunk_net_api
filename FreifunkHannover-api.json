@@ -44,7 +44,7 @@
       "mapType": "geographical"
     },
     {
-      "url": "https://harvester.ffh.zone/nodelist.json",
+      "url": "https://harvester.ffh.zone/api/nodelist.json",
       "interval": "1min",
       "technicalType": "nodelist",
       "mapType": "list/status"
